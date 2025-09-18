@@ -7,12 +7,18 @@ The primary objective of this project is to accurately classify human emotions f
 
 # Key Technologies Used
 Python: The primary programming language.
+
 Jupyter Notebook: For interactive development and documentation.
+
 Librosa: For audio loading and advanced feature extraction (MFCCs, Chroma, Mel Spectrogram, etc.).
+
 Scikit-learn: For machine learning model (MLPClassifier), data splitting, and evaluation metrics.
+
 NumPy & Pandas: For efficient data manipulation.
+
 Matplotlib & Seaborn: For data visualization and presenting results.
-Dataset
+
+# Dataset
 We will be using the TESS (Toronto Emotional Speech Set) dataset.
 
 # Download Link: 
