@@ -43,7 +43,3 @@ Example: `03-01-01-01-01-01-01.wav`
 - **Development Environment:** VS Code / Google Colab  
 
 ---
-
-1. Clone this repository  
-   ```bash
-   git clone https://github.com/your-username/speech-emotion-recognition.git
