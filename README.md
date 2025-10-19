@@ -21,6 +21,19 @@ It aims to enhance **human–computer interaction** by enabling machines to unde
 - **Model Accuracy:** ~65% on test data  
 - **Emotions Classified:** Happy, Angry, Sad, Fear, Neutral, and others  
 
+## RAVDESS File Naming Convention
+Each filename provides information about the audio: `Modality-VocalChannel-Emotion-Intensity-Statement-Repetition-Actor.wav`
+Example: `03-01-01-01-01-01-01.wav`
+* `03`: Audio-only
+* `01`: Speech
+* `01`: **Emotion** (we'll primarily use this)
+* `01`: Emotional intensity (01=normal, 02=strong)
+* `01`: Statement (01="Kids are talking by the door", 02="Dogs are sitting by the door")
+* `01`: Repetition (01=1st, 02=2nd)
+* `01`: Actor (01-24. Odd numbers are male, even are female)
+
+**Emotion Codes:**
+ 01 = neutral, 02 = calm, 03 = happy, 04 = sad, 05 = angry, 06 = fearful, 07 = disgust, 08 = surprised
 ---
 
 ## 🧩 Tech Stack
@@ -31,7 +44,6 @@ It aims to enhance **human–computer interaction** by enabling machines to unde
 
 ---
 
-## ⚙️ How to Run
 1. Clone this repository  
    ```bash
    git clone https://github.com/your-username/speech-emotion-recognition.git
